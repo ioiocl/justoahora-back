@@ -1,0 +1,23 @@
+{
+  "defaultConnection": "default",
+  "connections": {
+    "default": {
+      "connector": "mongoose",
+      "settings": {
+        "database": "explguru",
+        "host": "ds047612.mongolab.com",
+        "srv": false,
+        "port": 47612,
+        "username": "andres",
+        "password": "unodos3"
+      },
+      "options": {
+        "ssl": "false",
+        "authenticationDatabase": "explguru"
+      }
+    }
+  }
+}
+
+
+

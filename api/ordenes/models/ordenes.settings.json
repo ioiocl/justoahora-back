@@ -1,0 +1,29 @@
+{
+  "kind": "collectionType",
+  "connection": "default",
+  "collectionName": "ordenes",
+  "info": {
+    "name": "Ordenes"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "address": {
+      "type": "string"
+    },
+    "postalCode": {
+      "type": "string"
+    },
+    "city": {
+      "type": "string"
+    },
+    "productos": {
+      "type": "json"
+    },
+    "amount": {
+      "type": "decimal"
+    }
+  }
+}
